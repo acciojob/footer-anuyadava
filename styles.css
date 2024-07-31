@@ -47,9 +47,11 @@ body {
     font-size: 1em;
 }
 
-.media-icons a {
-    margin: 0 10px;
-    display: inline-block;
+.media-icons {
+    display: flex;
+    justify-content: space-between;
+
+	
 }
 
 .media-icons img {
@@ -58,10 +60,10 @@ body {
     vertical-align: middle;
 }
 
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+  }
 }
+
 
