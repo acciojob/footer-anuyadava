@@ -19,9 +19,10 @@ body {
 }
 
 .footer-section {
-    flex: 1;
-    min-width: 200px;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* rest of your styles */
+	
 }
 
 .footer-section h2 {
